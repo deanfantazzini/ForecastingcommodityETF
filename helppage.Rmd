@@ -1,0 +1,52 @@
+# Forecasting commodity Exchange-Traded Funds (ETF) prices: Help Page
+## Coursera - Developing Data Products
+* Author:  Dean Fantazzini
+* Date: 31/March/2016  
+
+## Description:
+This app downloads the the last five years of daily prices
+from [Yahoo Finance](finance.yahoo.com) for a selected group of commodity ETFs and forecasts the next year prices using the`auto.arima` function from the `forecast` R package. Estimations and forecasts are performed using [adjusted prices](https://help.yahoo.com/kb/SLN2311.html).
+
+
+### - Select a commodity ETF price  
+
+You can select one of the following commodity prices:
+
+| ETF                            |  Ticker |
+|--------------------------------|---------|
+|United States Oil (USO)         | USO     |
+|United States Natural Gas (UNG) | UNG     |
+|United States Gasoline (UGA)    | UGA     | 
+|SPDR Gold Shares (GLD)          | GLD     | 
+|iShares Silver Trust (SLV)      | SLV     | 
+|iiPath Bloomberg Copper (JJC)   | JJC     |
+
+
+
+### - Prices Plot  
+It shows a price plot for the selected commodity ETF price, together with a smoothing method: either a `linear` fit or `loess` fit (i.e. a [local polynomial regression fitting](http://www.inside-r.org/r-doc/stats/loess)).
+
+### - Prices table  
+It shows the price table data for the selected commodity ETF price.
+
+### - Price forecast plot  
+It shows the 
+[ARIMA](https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average)
+forecast for the next 365 days as a blue line, 80% confidence interval is 
+displayed in orange, while 90% is in yellow.
+
+
+### - Price forecast table 
+It displays the forecasted prices in a table format.
+
+### - Best ARIMA model  
+It shows the estimated model using `auto.arima` from the `forecast` package.
+
+### - First differences plot  
+It plots the first differences for the selected commodity ETF price and the first differences for the logarithm base 10. 
+
+### - Autocorrelations residuals. 
+It plots the Auto-Correlation Function ([ACF](https://en.wikipedia.org/wiki/Autocorrelation)) and the Partial ACF
+([PACF](https://en.wikipedia.org/wiki/Partial_autocorrelation_function)) for the ARIMA model residuals.
+
+
