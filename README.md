@@ -2,7 +2,7 @@
 
 ## Developing Data Products: Course project
 
-* Author:  Enrique Pérez Herrero  
+* Author:  Dean Fantazzini  
 * Date: April 1st, 2016  
 
 ## Idea
