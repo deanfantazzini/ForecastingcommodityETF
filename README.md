@@ -9,7 +9,7 @@
 
 This App downloads the last five years of prices for a selected group of commodity Exchange-Traded Funds (ETF) prices and forecasts the prices for the next year using the auto.arima function from the forecast R package. 
 
-## Shiny App url:
+## Links:
 * [App url](https://deanfantazzini.shinyapps.io/Forecasting_commodity_ETF/) 
 * [GitHub url](https://github.com/deanfantazzini/ForecastingcommodityETF)
 * [R presentation](http://rpubs.com/deanfantazzini/ForecastingcommodityETF)
