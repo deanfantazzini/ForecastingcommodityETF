@@ -15,7 +15,7 @@ This App downloads the last five years of prices for a selected group of commodi
 * [R presentation](http://rpubs.com/deanfantazzini/ForecastingcommodityETF)
 
 
-P.S. If the Shiny app is blocked due to the strict time constraints of the Shinyapps free subscription, you can easily access it by using github and R, jus typing these few lines of code
+P.S. If the Shiny app is blocked due to the strict time constraints of the Shinyapps free subscription, you can easily access it by using github and R. Just type these few lines of code in R:
 
 ```r
 # Install these packages in R if needed
